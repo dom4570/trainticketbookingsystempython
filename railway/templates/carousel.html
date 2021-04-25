@@ -1,0 +1,64 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block a %}
+<center>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" style="border-radius:12px;background-color:white;border:1px solid #bbb;">
+
+      <div class="item active">
+        <img src="{% static 'images\train1.jpg' %}" alt="Train1" style="width:100%;height:500px">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="{% static 'images\train2.jpg' %}" alt="Train2" style="width:100%;height:500px;">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="{% static 'images\train3.jpg' %}" alt="Train3" style="width:100%;height:500px;">
+        <div class="carousel-caption">
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    </center>
+<div style="color:Black;border:1px solid white;border-radius:8px;background-color:white">
+
+    <h2><center><strong>Train Booking System</strong></center></h2>
+<p>Train Booking System is designed to streamline the process of buying train tickets online by providing an easy-to-use online train ticket booking system. Integrate our online train ticketing system into your website to enable customers to purchase tickets for a variety of routes and destinations. You can handle reservations, client info, and passenger lists using the railway ticket reservation system. Additionally, you can plan routes, manage seat availability, upload an interactive seat chart, and allow customers to choose their seats. The Railway Reservation System is licenced on a per-user or per-developer basis. Consider the distinctions mentioned below.
+Would you like to request a customised modification? Kindly contact us and explain the modifications you need!
+</p><br>
+    <p> Train booking system is being developed for a leading coach operator in India to allow customers to quickly and securely reserve their tickets online.
+    <br><ul style="list-style-type:circle">
+    <li>Booking is simple and easy.</li>
+    <li>Effectively manage reservations and seating</li>
+    <li>System for a safe and reliable payment gateway</li>
+    <li>Reports in detail for trip management</li>
+    <li>Booking is simple and easy. </li>
+</ul></p></div>
+
+ </div>
+{% endblock %}
